@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Menu Item List Admin</title>
+        <link href="style/style5.css" type="text/css" rel="stylesheet">
+        <script>
+            function deleted(){
+                alert("item deleted successfully");
+                return false;
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+                <div id="col-1">
+                    <h3 class="restraunt-name">truYum</h3>
+                </div>
+                <div id="col-1">
+                    <img src="images/images.png" id="picture">
+                </div>
+                <div id="col-1">
+                    <a href="menu-item-list-customer.html" class="menu-items">Menu</a>
+                    <a href="cart.html" class="menu-items">Cart</a>
+                </div>
+            </div>
+        </header>
+        <div id="heading">Cart</div>
+        <table id="total-table">
+            <tr id="row1">
+                <td id="name-1">Name</td>
+                <td id="freedelivery-1">Free Delivery</td>
+                <td id="price-1">Price</td>
+                <td></td>
+            </tr>
+            <tr id="row2">
+                <td id="name-1">Sandwich</td>
+                <td id="freedelivery-1">Yes</td>
+                <td id="price-1">Rs.99</td>
+                <td id="action-1"><a href="cart.html" onclick="return deleted()">Delete</a></td>
+            </tr>
+            <tr id="row2">
+                <td id="name-1">Burger</td>
+                <td id="freedelivery-1">No</td>
+                <td id="price-1">Rs.129</td>
+                <td id="action-1"><a href="cart.html" onclick="return deleted()">Delete</a></td>
+            </tr>
+            <tr id="row2">
+                <td id="name-1">Pizza</td>
+                <td id="freedelivery-1">No</td>
+                <td id="price-1">Rs.149</td>
+                <td id="action-1"><a href="cart-notification.html">Delete</a></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td id="total">Total</td>
+                <td id="actualprice">Rs.377</td>
+                <td></td>
+            </tr>
+        </table>
+        <footer class="copyright">
+            <div class="copyright-1">
+                <div class="copyrightlogo">Copyright &copy; 2019</div>
+            </div>
+        </footer>
+    </body>
+</html>

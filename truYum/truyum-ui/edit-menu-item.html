@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Menu Item List Admin</title>
+        <link href="style/style2.css" rel="stylesheet">
+        <script>
+            function validate(){
+                var itemname = document.getElementById("name2").value;
+                var itemprice = document.getElementById("price2").value;
+                var itemdate = document.getElementById("date2").value;
+                var itemcategory = document.getElementById("category2").value;
+                if (itemname == ""){
+                    alert("title is required");
+                }
+                if (itemPRICE == ""){
+                    alert("title is required");
+                }
+                if (itemprice == ""){
+                    alert("title is required");
+                }
+                if (itemprice == ""){
+                    alert("title is required");
+                }
+                alert("completed");
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <div id="header-container">
+                <div id="col-1">
+                    <h3 class="restraunt-name">truYum</h3>
+                </div>
+                <div id="col-1">
+                    <img src="images/images.png" id="picture">
+                </div>
+                <div id="col-1">
+                    <a href="menu-item-list-admin.html" class="menu-items">Menu</a>
+                </div>
+            </div>
+        </header>
+        <form id="total-form">
+            <p>Edit Menu Items</p>
+            <div id="name">Name<br>
+                <input type="text" id="name2" value="">
+            </div>
+            <div id="allone">
+                <div id="price">
+                    Price (Rs.)<br>
+                    <input type="text" id="price2" value="" placeholder="Rs.99">
+                </div>
+            </div>
+            <div id="allone">
+                <div id="active">
+                    Active<br>
+                    <input type="radio" name="option" value="">Yes
+                    <input type="radio" name="option" value="">No
+                </div>
+            </div>
+            <div id="allone">
+                <div id="dateoflaunch">
+                    Date of Launch<br>
+                    <input type="text" id="date2" value="" placeholder="23/12/2017">
+                </div>
+            </div>
+            <div id="allone">
+                <div id="category2">Category</div>
+                <select id="cat">
+                    <option value="" name="category" id="Main Course">Main Course</option>
+                    <option value="" name="category" id="Starters">Starters</option>
+                    <option value="" name="category" id="Dessert">Dessert</option>
+                    <option value="" name="category" id="Drinks">Drinks</option>
+                </select>
+            </div>
+        </form>
+        <div id="freedelivery">
+                <input type="checkbox" name="freedelivery" value="freedelivery"><b>Free Delivery</b><br>
+        </div>
+        <div colspan="2">
+            <button type="trial" value="submit" id="button" onclick="validate()">SAVE</button>
+        </div>
+        <footer class="copyright">
+            <div class="copyright-1">
+                <div class="copyrightlogo">Copyright &copy; 2019</div>
+            </div>
+        </footer>
+    </body>
+</html>

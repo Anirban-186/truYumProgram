@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+}
+header{
+    height: 120px;
+    background-color: blue;
+}
+#header-container{
+    width: 90%;
+    margin: auto;
+}
+#col-1{
+    width: 33%;
+    float: left;
+}
+.restraunt-name{
+    margin-top: 30px;
+    font-size: 4em;
+    color: #ffffff;
+}
+#picture{
+    height: 100px;
+    padding-top: 10px;
+}
+.menu-items{
+    background-color: #6dc77a;
+    border-radius: 28px;
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+}
+#heading{
+    padding-top: 100px;
+    text-align: left;
+    font-size: 4em;
+    margin-left: 140px;
+    padding-left: 150px;
+}
+#added{
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 150px;
+    padding-bottom: 500px;
+    font-size: 2em;
+    color: gray;
+    padding-left: 150px;
+}
+.copyright{
+    background-color: grey;
+    color: black;
+    height: 100px;
+}
+.copyrightlogo{
+    padding-top: 30px;
+    padding-left: 50px;
+}
